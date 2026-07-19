@@ -508,6 +508,11 @@ void Amitabh(float fScalePercent, float fTranslationX, float fTranslationY)
 	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
 	
 	// To_Edit
+	// T_3
+	x = -0.14821;
+	y = -0.05009;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
 	// W_6
 	x = -0.14563;
 	y = -0.01462;
@@ -523,6 +528,8 @@ void Amitabh(float fScalePercent, float fTranslationX, float fTranslationY)
 	y = -0.2;
 	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
 	
+
+
 	// Z_3
 	x = -0.1;
 	y = -0.24;
