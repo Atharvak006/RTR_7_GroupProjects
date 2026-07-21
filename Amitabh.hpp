@@ -987,3 +987,633 @@ void Amitabh(float fScalePercent, float fTranslationX, float fTranslationY)
 
 	glEnd();
 }
+
+void Legs(float fScalePercent, float fTranslationX, float fTranslationY)
+{
+	float x = 0.0f, y = 0.0f;
+	float scale = fScalePercent / 100.0f;
+
+	glBegin(GL_POLYGON);
+
+	glColor3f(0.0f, 0.0f, 0.0f);
+
+	///////////////// LEFT LEG START /////////////////
+	// Q_3
+	x = -0.1424666716749;
+	y = -0.0500579907836;
+	glVertex2f(x * scale + fTranslationX, y * scale + fTranslationY);
+
+	// H_8
+	x = -0.14;
+	y = -0.08;
+	glVertex2f(x * scale + fTranslationX, y * scale + fTranslationY);
+
+	// J_8
+	x = -0.137720306399;
+	y = -0.1034412311988;
+	glVertex2f(x * scale + fTranslationX, y * scale + fTranslationY);
+
+	// K_8
+	x = -0.1353355827213;
+	y = -0.1284808298143;
+	glVertex2f(x * scale + fTranslationX, y * scale + fTranslationY);
+
+	// L_8
+	x = -0.1325534050974;
+	y = -0.1527255205372;
+	glVertex2f(x * scale + fTranslationX, y * scale + fTranslationY);
+
+	// M_8
+	x = -0.1289763195809;
+	y = -0.1805472967766;
+	glVertex2f(x * scale + fTranslationX, y * scale + fTranslationY);
+
+	// N_8
+	x = -0.1261941419569;
+	y = -0.1805472967766;
+	glVertex2f(x * scale + fTranslationX, y * scale + fTranslationY);
+
+	// O_8
+	x = -0.1249274041421;
+	y = -0.2253446060103;
+	glVertex2f(x * scale + fTranslationX, y * scale + fTranslationY);
+
+	// P_8
+	x = -0.1241178554343;
+	y = -0.2500920097696;
+	glVertex2f(x * scale + fTranslationX, y * scale + fTranslationY);
+
+	// Q_8
+	x = -0.122465881182;
+	y = -0.2759729397226;
+	glVertex2f(x * scale + fTranslationX, y * scale + fTranslationY);
+
+
+	// Q_8
+	x = -0.1180606165092;
+	y = -0.299651237339;
+	glVertex2f(x * scale + fTranslationX, y * scale + fTranslationY);
+
+	// S_8
+	x = -0.1136553518363;
+	y = -0.3189242702827;
+	glVertex2f(x * scale + fTranslationX, y * scale + fTranslationY);
+
+	// T_8
+	x = -0.1098007452476;
+	y = -0.3326907223853;
+	glVertex2f(x * scale + fTranslationX, y * scale + fTranslationY);
+
+	// U_8
+	x = -0.1098007452476;
+	y = -0.3497611229926;
+	glVertex2f(x * scale + fTranslationX, y * scale + fTranslationY);
+
+	// V_8
+	x = -0.1104944661824;
+	y = -0.3737809972969;
+	glVertex2f(x * scale + fTranslationX, y * scale + fTranslationY);
+
+	// W_8
+	x = -0.1089699468767;
+	y = -0.3976651330864;
+	glVertex2f(x * scale + fTranslationX, y * scale + fTranslationY);
+
+	// Z_8
+	x = -0.1064290813672;
+	y = -0.431204557812;
+	glVertex2f(x * scale + fTranslationX, y * scale + fTranslationY);
+
+
+	// A_9
+	x = -0.1028718696539;
+	y = -0.4688093673529;
+	glVertex2f(x * scale + fTranslationX, y * scale + fTranslationY);
+
+	// B_9
+	x = -0.1;
+	y = -0.5;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// C_9
+	x = -0.0928332110874;
+	y = -0.5588354930365;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// D_9
+	x = -0.0886220697747;
+	y = -0.5976113615815;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// E_9
+	x = -0.0825566634896;
+	y = -0.6437962309201;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+	
+	// F_9
+	x = -0.0767139348217;
+	y = -0.6812459078767;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// G_9
+	x = -0.0730005003682;
+	y = -0.7022887031134;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// H_9
+	x = -0.0736194061104;
+	y = -0.7121911949896;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// I_9
+	x = -0.0513387993892;
+	y = -0.7152857237008;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// I_9
+	x = -0.0513387993892;
+	y = -0.7152857237008;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// J_9
+	x = -0.0104910204003;
+	y = -0.7121911949896;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// K_9
+	x = 0.0155030207745;
+	y = -0.7072399490515;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// L_9
+	x = 0.0263889592663;
+	y = -0.7018901493804;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// M_9
+	x = 0.0262672384761;
+	y = -0.6790045363661;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// N_9
+	x = 0.0270787020691;
+	y = -0.6609900446028;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// O_9
+	x = 0.0267165753379;
+	y = -0.6346618489508;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// P_9
+	x = 0.025970418577;
+	y = -0.6137694596432;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// Q_9
+	x = 0.0242293861347;
+	y = -0.5821821567615;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// R_9
+	x = 0.0223919081754;
+	y = -0.5506468661469;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// S_9
+	x = 0.0223919081754;
+	y = -0.5506468661469;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// T_9
+	x = 0.02;
+	y = -0.48;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// U_9
+	x = 0.0177873733763;
+	y = -0.4504549300023;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// V_9
+	x = 0.0157137202744;
+	y = -0.4250526795042;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// W_9
+	x = 0.014158480448;
+	y = -0.3970583626288;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// Z_9
+	x = 0.0126032406216;
+	y = -0.3623246731723;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// A_10
+	x = 0.0144682894849;
+	y = -0.3238326637915;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// B_10
+	x = 0.0145202810607;
+	y = -0.297222864842;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// C_10
+	x = 0.0128416806459;
+	y = -0.2628115563398;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// D_10
+	x = 0.0145202810607;
+	y = -0.2309181484598;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// E_10
+	x = 0.0164842764554;
+	y = -0.2003252294895;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// F_10
+	x = 0.0174756276542;
+	y = -0.1749867945663;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// G_10
+	x = 0.0177846891928;
+	y = -0.1510700844699;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// H_10
+	x = 0.0192254115399;
+	y = -0.1325545353374;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// I_10
+	x = 0.0208106430929;
+	y = -0.1134067184804;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// J_10
+	x = 0.0218641072796;
+	y = -0.1024091752143;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	glEnd();
+
+
+	///////////////// LEFT LEG DONE /////////////////
+
+	glBegin(GL_POLYGON);
+
+	glColor3f(0.0f, 0.0f, 0.0f);
+
+	// K_10
+	x = 0.0261474222535;
+	y = -0.1146750317305;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// L_10
+	x = 0.03;
+	y = -0.13;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// M_10
+	x = 0.0329617869847;
+	y = -0.1427112751961;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// N_10
+	x = 0.0370504058234;
+	y = -0.1565347007938;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// O_10
+	x = 0.04;
+	y = -0.17;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// P_10
+	x = 0.0424156980252;
+	y = -0.1839078516489;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+
+	// Q_10
+	x = 0.0450250619303;
+	y = -0.1989116941029;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// R_10
+	x = 0.0481616873893;
+	y = -0.2155684124352;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// S_10
+	x = 0.0513846291159;
+	y = -0.2334185512284;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// T_10
+	x = 0.0513157310807;
+	y = -0.2531321165091;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// U_10
+	x = 0.0516891343027;
+	y = -0.2729224872742;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// V_10
+	x = 0.0516891343027;
+	y = -0.2934596644832;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// W_10
+	x = 0.0516891343027;
+	y = -0.3009277289229;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// Z_10
+	x = 0.0611817261463;
+	y = -0.3136562938197;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// A_11
+	x = 0.0655602754787;
+	y = -0.3188768718699;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// B_11
+	x = 0.0605081031721;
+	y = -0.3274655647911;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// C_11
+	x = 0.0576452055317;
+	y = -0.3328545485848;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// D_11
+	x = 0.0578136112752;
+	y = -0.3387487496091;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// E_11
+	x = 0.0641337978637;
+	y = -0.3488516632023;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// F_11
+	x = 0.0619712118761;
+	y = -0.3653636642087;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// G_11
+	x = 0.06;
+	y = -0.38;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// H_11
+	x = 0.0578922042978;
+	y = -0.3996616750315;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// I_11
+	x = 0.0568456522489;
+	y = -0.417976026265;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// J_11
+	x = 0.0569448299859;
+	y = -0.4308178648155;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// K_11
+	x = 0.0569448299859;
+	y = -0.4417958557202;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// L_11
+	x = 0.0565963223381;
+	y = -0.449637277795;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// M_11
+	x = 0.0539825149798;
+	y = -0.4597439995804;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// N_11
+	x = 0.052239976741;
+	y = -0.4714190057807;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// O_11
+	x = 0.0504974385021;
+	y = -0.4839652811004;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// P_11
+	x = 0.0492776617349;
+	y = -0.4980798408351;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// Q_11
+	x = 0.0483049865812;
+	y = -0.5095448846547;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// R_11
+	x = 0.0472048131316;
+	y = -0.5211752896933;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// S_11
+	x = 0.046104639682;
+	y = -0.5345345387241;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// T_11
+	x = 0.045633136775;
+	y = -0.5383065619798;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// U_11
+	x = 0.0526261465354;
+	y = -0.5518828356735;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// V_11
+	x = 0.0567053557116;
+	y = -0.5450125886398;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// W_11
+	x = 0.06;
+	y = -0.54;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// Z_11
+	x = 0.0633609075255;
+	y = -0.535136608529;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// A_12
+	x = 0.0677621595314;
+	y = -0.530735356523;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// B_12
+	x = 0.0710455852493;
+	y = -0.5283853616232;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// C_12
+	x = 0.0722404427029;
+	y = -0.5304738932376;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// D_12
+	x = 0.0772168382819;
+	y = -0.5300022257827;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// E_12
+	x = 0.0820555698067;
+	y = -0.5299158198626;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// F_12
+	x = 0.0866350835712;
+	y = -0.530347849463;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// G_12
+	x = 0.090566122398;
+	y = -0.531053153228;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// H_12
+	x = 0.0941523986186;
+	y = -0.5322487797049;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// I_12
+	x = 0.0958805170203;
+	y = -0.5322487797049;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// J_12
+	x = 0.0937203690182;
+	y = -0.5297430080224;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// K_12
+	x = 0.0968628319375;
+	y = -0.5299875879531;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// L_12
+	x = 0.0993390966137;
+	y = -0.5323181900013;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// M_12
+	x = 0.1029935504163;
+	y = -0.5361319102908;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// N_12
+	x = 0.1065402143004;
+	y = -0.5399585739552;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// O_12
+	x = 0.1097135451441;
+	y = -0.5437852376197;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// P_12
+	x = 0.1127002094676;
+	y = -0.5477985678043;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// Q_12
+	x = 0.1148468744501;
+	y = -0.5513452316884;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// R_12
+	x = 0.1171802059528;
+	y = -0.5558252281736;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// S_12
+	x = 0.1197236941774;
+	y = -0.5618267387221;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// T_12
+	x = 0.1214374583201;
+	y = -0.5668609208915;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// U_12
+	x = 0.1236867737575;
+	y = -0.573073315909;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// V_12
+	x = 0.1248649866057;
+	y = -0.5774648365248;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// W_12
+	x = 0.1264716404895;
+	y = -0.5833559007656;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// Z_12
+	x = 0.1277384547715;
+	y = -0.58845078859;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// A_13
+	x = 0.128971954654;
+	y = -0.5917401216099;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// B_13
+	x = 0.1303082461934;
+	y = -0.5986271626205;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// C_13
+	x = 0.1341115374977;
+	y = -0.5958517878849;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// D_13
+	x = 0.1382232037726;
+	y = -0.5927680381787;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// E_13
+	x = 0.1428488283319;
+	y = -0.5874228720212;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// F_13
+	x = 0.1459325780382;
+	y = -0.5822832891776;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	// G_13
+	x = 0.146035369695;
+	y = -0.5748822898827;
+	glVertex2f(x* scale + fTranslationX, y* scale + fTranslationY);
+
+	glEnd();
+}
